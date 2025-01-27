@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './home.scss'
-import back from '../../assets/back_vite.jpeg';
 import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
