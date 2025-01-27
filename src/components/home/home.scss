@@ -1,0 +1,40 @@
+
+body{
+    margin: 0;
+}
+.container_titles_todo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 25px;
+    grid-gap: 15px;
+    
+    a{
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 50px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 15px;
+        text-align: center;
+        padding: 15px;
+        transition: all ease-in-out 0.3s;
+        
+        &:hover{
+            transform: scale(1.01);
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .container_titles_todo{
+        grid-template-columns: 1fr;
+        a{
+            font-size: 17px;
+        }
+    }
+}
