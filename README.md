@@ -1,3 +1,8 @@
+# About this project
+
+This project is one of the first exercise of the next documentation.
+It consists of retrieving data from a url, display it, and on click redirect to the todo page with correct id, then load data of  the select object inside that page.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
